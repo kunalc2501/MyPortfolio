@@ -29,3 +29,4 @@ let navmenulinks = document.querySelectorAll('.navmenu a');
         }
 
         document.getElementById("age").textContent = age;
+        
