@@ -297,7 +297,7 @@ section,
 .section {
   color: #272829;
   /* background-image: linear-gradient(#1e130c , #9a8478); */
-  /* padding: 40px 0; */
+  padding: 0 10px;
   overflow: clip;
   margin-left: 19.5%;
 }
@@ -427,7 +427,6 @@ section,
   width: 15%;
   padding: 20px 0;
   border-radius: 10px;
-  flex-direction: column;
 }
 
 .soft-skill-logo {
@@ -437,7 +436,6 @@ section,
   width: 13%;
   padding: 10px 0;
   border-radius: 10px;
-  /* flex-direction: column; */
 }
 
 .skill p {
@@ -508,6 +506,7 @@ section,
   display: flex;
   justify-content: flex-start;
   align-items: center;
+  gap: 10px;
 }
 
 .contact form {
@@ -519,7 +518,7 @@ section,
 }
 
 .contact .right-side-contact .contact-input label {
-  width: 35%;
+  /* width: 35%; */
   margin-bottom: 10px;
   color: #414d5d;
   padding: 0;
@@ -528,14 +527,14 @@ section,
 }
 
 .contact .right-side-contact input {
-  width: 90%;
+  width: 100%;
   padding: 10px 10px;
   border-radius: 15px;
   border: 1px solid #040b14;
 }
 
 .contact .contact-input-next input {
-  width: 193%;
+  width: 100%;
   padding: 10px 10px;
   border-radius: 15px;
   border: 1px solid #040b14;
@@ -551,7 +550,7 @@ section,
 }
 
 .contact .contact-input-next .textarea-control {
-  width: 95%;
+  width: 100%;
   padding: 10px 10px;
   border-radius: 15px;
   border: 1px solid #040b14;
@@ -571,7 +570,7 @@ section,
   padding: 10px 15px;
   border: 1px solid #040b14;
   border-radius: 15px;
-  width: 30%;
+  /* width: 30%; */
   background-color: #149ddd;
   color: #ffffff;
 }
@@ -718,8 +717,28 @@ section,
   .left .social-links a {
     border-radius: 50%;
     width: 30px;
-    height: 25px;
+    height: 30px;
     font-size: 18px;
     margin: 10px 12px;
+  }
+  section,
+  .section {
+    padding: 0 5px;
+  }
+  .skill img {
+    width: 60%;
+  }
+
+  .skill .soft-skill-logo {
+    width: 50%;
+  }
+  .technical-skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  .technical-skill .html-logo {
+    width: 116px;
   }
 }
