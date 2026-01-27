@@ -46,3 +46,20 @@ document.getElementById("age").textContent = age;
 //     }
 //   });
 // });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const navLinks = document.querySelectorAll(".navmenu a");
+  const offcanvasEl = document.getElementById("offcanvasNavbar2");
+
+  if (!offcanvasEl) return;
+
+  const bsOffcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasEl);
+
+  navLinks.forEach((link) => {
+    link.addEventListener("click", () => {
+      if (window.innerWidth < 992) {
+        bsOffcanvas.hide();
+      }
+    });
+  });
+});
