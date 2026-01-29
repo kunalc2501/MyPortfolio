@@ -373,7 +373,9 @@ section,
 .about .content .download-button .resume-btn:hover:before {
   left: 90%;
 }
-
+.about_content strong {
+  font-size: 17px;
+}
 .about_content span {
   font-size: 14px;
 }
