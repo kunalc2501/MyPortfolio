@@ -558,6 +558,11 @@ section,
   color: #0b0c0d;
 }
 
+/* button:focus {
+  outline: 3px solid #0d6efd;
+  outline-offset: 3px;
+} */
+
 /*-------------------------------------------
 # Contact SECTION END
 ---------------------------------------------*/
