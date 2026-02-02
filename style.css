@@ -79,9 +79,15 @@ body {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+  position: relative;
+  z-index: 10000;
 }
 
 .left .social-links a {
+  position: relative;
+  z-index: 10001;
+  cursor: pointer;
+  pointer-events: auto !important;
   text-decoration: none;
   font-size: 20px;
   color: #ffffff;
@@ -97,8 +103,11 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px 20px;
+  margin: 10px 15px;
   box-shadow: 0px 0px 10px rgb(247, 188, 188);
+}
+.left .social-links a i {
+  pointer-events: none;
 }
 
 .left .social-links a:hover {
@@ -106,6 +115,9 @@ body {
   color: #ffffff;
 }
 
+.offcanvas {
+  z-index: 9999 !important;
+}
 /*-------------------------------------------
   # LEFT SECTION END
 ---------------------------------------------*/
