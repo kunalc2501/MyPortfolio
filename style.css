@@ -264,7 +264,7 @@ body {
 section,
 .section {
   color: #272829;
-  /* background-image: linear-gradient(#1e130c , #9a8478); */
+  background-color: #d2edf9a2;
   padding: 0 10px;
   overflow: clip;
   margin-left: 20%;
@@ -558,11 +558,6 @@ section,
   color: #0b0c0d;
 }
 
-/* button:focus {
-  outline: 3px solid #0d6efd;
-  outline-offset: 3px;
-} */
-
 /*-------------------------------------------
 # Contact SECTION END
 ---------------------------------------------*/
@@ -573,6 +568,10 @@ section,
 .project h1 {
   font-family: Verdana, Tahoma, sans-serif;
   padding: 10px 0;
+}
+.project p {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bolder;
 }
 
 .project .project_section {
