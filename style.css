@@ -139,7 +139,7 @@ body {
 
 .right p > span > span {
   display: block;
-  animation: animateWords 10s infinite ease;
+  animation: animateWords 15s infinite ease;
 }
 
 @keyframes animateWords {
@@ -283,7 +283,7 @@ section,
 }
 
 .section-title {
-  padding: 50px 12px;
+  padding: 30px 10px;
   position: relative;
 }
 
@@ -404,13 +404,19 @@ section,
   width: 40%;
   margin: 10px 0;
 }
+.technical-skill {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 0;
+}
 
 .html-logo {
   border: 2px dashed #149ddd;
   text-align: center;
   height: auto;
-  width: 15%;
-  padding: 20px 0;
+  width: 12%;
+  padding: 15px 0;
   border-radius: 10px;
 }
 
@@ -579,7 +585,6 @@ section,
 
 .project h1 {
   font-family: Verdana, Tahoma, sans-serif;
-  padding: 10px 0;
 }
 .project p {
   font-family: Verdana, Tahoma, sans-serif;
