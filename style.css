@@ -424,7 +424,7 @@ section,
   border: 2px dashed #149ddd;
   text-align: center;
   height: auto;
-  width: 11%;
+  width: 12%;
   padding: 10px 0;
   border-radius: 10px;
 }
@@ -644,6 +644,25 @@ section,
   color: #149ddd;
 }
 
+.scroll-btn {
+  /* background-color: #149ddd; */
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  position: fixed;
+  right: 16px;
+  bottom: 15px;
+  cursor: pointer;
+}
+.scroll-btn i {
+  color: #ffffff72;
+  font-size: 30px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*-------------------------------------------
 # FOOTER SECTION END
 ---------------------------------------------*/
@@ -750,6 +769,13 @@ section,
   }
   .project .project_section {
     width: 115px;
+  }
+  .scroll-btn {
+    width: 35px;
+    height: 35px;
+  }
+  .scroll-btn i {
+    font-size: 23px;
   }
 }
 /*-------------------------------------------
