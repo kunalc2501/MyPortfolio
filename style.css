@@ -424,7 +424,7 @@ section,
   border: 2px dashed #149ddd;
   text-align: center;
   height: auto;
-  width: 13%;
+  width: 11%;
   padding: 10px 0;
   border-radius: 10px;
 }
@@ -736,7 +736,7 @@ section,
   }
 
   .skill .soft-skill-logo {
-    width: 50%;
+    width: 40%;
   }
   .technical-skill {
     display: flex;
@@ -746,6 +746,7 @@ section,
   }
   .technical-skill .html-logo {
     width: 150px;
+    margin-top: 10px;
   }
   .project .project_section {
     width: 115px;
