@@ -399,34 +399,8 @@ section,
 /*-------------------------------------------
 # SKILLS SECTION START
 ---------------------------------------------*/
-
-.skill img {
-  width: 40%;
-  margin: 10px 0;
-}
-.technical-skill {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 10px 0;
-}
-
-.html-logo {
-  border: 2px dashed #149ddd;
-  text-align: center;
-  height: auto;
-  width: 12%;
-  padding: 15px 0;
-  border-radius: 10px;
-}
-
-.soft-skill-logo {
-  border: 2px dashed #149ddd;
-  text-align: center;
-  height: auto;
-  width: 12%;
-  padding: 10px 0;
-  border-radius: 10px;
+.skill {
+  height: 1115px;
 }
 
 .skill p {
@@ -434,22 +408,134 @@ section,
   font-weight: bolder;
 }
 
-.skill .technical-skill .html-logo:hover {
-  border: 2px solid #040b14;
-  color: #149ddd;
-  transition: all 0.5s ease-in-out;
+.skill img {
+  width: 40%;
+  margin: 10px 0;
 }
 
-.soft-skill .soft-skill-logo:hover {
-  border: 2px solid #040b14;
-  color: #149ddd;
-  transition: all 0.5s ease-in-out;
+.technical-skill {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  padding: 10px 40px;
+  gap: 20px;
+}
+
+.html-logo {
+  background-color: #eaf7ff;
+  border: 2px dashed #3aa7ff;
+  text-align: center;
+  padding: 30px 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+/* border: 2px solid #040b14;
+color: #149ddd;
+transition: all 0.5s ease-in-out; */
+.html-logo:hover {
+  transform: translateZ(15px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(24, 130, 218, 0.4);
+  border-style: solid;
+}
+
+.html-logo {
+  transition: all 0.3s ease;
+}
+img {
+  transition: transform 0.4s ease-in-out;
+}
+.html-logo:hover {
+  transform: translateY(-5px);
+}
+
+.html-logo:hover img {
+  transform: rotate(10deg) scale(1.1);
+  /* transition: all ease-in-out 0.2; */
+}
+
+.soft-skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 40px;
+  gap: 20px;
+}
+
+.soft-skill-logo {
+  width: 18%;
+  background-color: #eaf7ff;
+  border: 2px dashed #149ddd;
+  text-align: center;
+  cursor: pointer;
+  padding: 30px 10px;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.soft-skill-logo:hover {
+  transform: translateZ(25px) scale(1.05);
+  box-shadow: 0 20px 40px rgba(24, 130, 218, 0.4);
+  border-style: solid;
+}
+
+.soft-skill-logo {
+  transition: all 0.3s ease;
+}
+img {
+  transition: transform 0.4s ease-in-out;
+}
+.soft-skill-logo:hover {
+  transform: translateY(-5px);
+}
+
+.soft-skill-logo:hover img {
+  transform: rotate(10deg) scale(1.1);
+  /* transition: all ease-in-out 0.2; */
 }
 
 /*-------------------------------------------
 # SKILLS SECTION END
 ---------------------------------------------*/
 
+/*-------------------------------------------
+# PROJECT SECTION END
+---------------------------------------------*/
+.project {
+  height: 600px;
+}
+.project h1 {
+  font-family: Verdana, Tahoma, sans-serif;
+}
+.project p {
+  font-family: Verdana, Tahoma, sans-serif;
+  font-weight: bolder;
+}
+
+.project .project_section {
+  width: 10%;
+  height: 100px;
+  padding: 5px;
+  line-height: 35px;
+  border: 2px dashed #149ddd;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.project-link {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.project_row img {
+  width: 60px;
+}
+
+/*-------------------------------------------
+# PROJECT SECTION END
+---------------------------------------------*/
 /*-------------------------------------------
 # Contact SECTION START
 ---------------------------------------------*/
@@ -578,40 +664,6 @@ section,
 
 /*-------------------------------------------
 # Contact SECTION END
----------------------------------------------*/
-/*-------------------------------------------
-# PROJECT SECTION END
----------------------------------------------*/
-
-.project h1 {
-  font-family: Verdana, Tahoma, sans-serif;
-}
-.project p {
-  font-family: Verdana, Tahoma, sans-serif;
-  font-weight: bolder;
-}
-
-.project .project_section {
-  width: 10%;
-  height: 100px;
-  padding: 5px;
-  line-height: 35px;
-  border: 2px dashed #149ddd;
-  border-radius: 10px;
-  cursor: pointer;
-}
-
-.project-link {
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-}
-.project_row img {
-  width: 60px;
-}
-
-/*-------------------------------------------
-# PROJECT SECTION END
 ---------------------------------------------*/
 /*-------------------------------------------
 # FOOTER SECTION END
