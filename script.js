@@ -24,22 +24,6 @@ document.addEventListener("scroll", navmenuScrollspy);
 
 //=============== start date code =======================//
 
-// const dob = new Date("01-10-1999"); // Change this to your DOB
-
-// const today = new Date();
-// let age = today.getFullYear() - dob.getFullYear();
-// const m = today.getMonth() - dob.getMonth();
-
-// if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
-//   age--;
-// }
-
-// document.getElementById("age").textContent = age;
-
-// {
-//   /* <span id="age"></span> */
-// }
-
 // 👇 SAME format as you want
 const dobString = "01-10-1999"; // DD-MM-YYYY
 
@@ -68,19 +52,6 @@ updateAge();
 setInterval(updateAge, 60 * 60 * 1000); // every 1 hour
 
 //===================== upadate date of birthday ======================//
-
-// const navLinks = document.querySelectorAll(".navmenu a");
-// const offcanvasEl = document.getElementById("offcanvasNavbar2");
-
-// const bsOffcanvas = bootstrap.Offcanvas.getOrCreateInstance(offcanvasEl);
-
-// navLinks.forEach((link) => {
-//   link.addEventListener("click", () => {
-//     if (window.innerWidth < 992) {
-//       bsOffcanvas.hide();
-//     }
-//   });
-// });
 
 document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".navmenu a");

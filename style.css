@@ -399,9 +399,6 @@ section,
 /*-------------------------------------------
 # SKILLS SECTION START
 ---------------------------------------------*/
-.skill {
-  height: 1115px;
-}
 
 .skill p {
   font-family: Verdana, Tahoma, sans-serif;
@@ -414,26 +411,25 @@ section,
 }
 
 .technical-skill {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
-  padding: 10px 40px;
-  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0px;
+  gap: 15px;
 }
 
 .html-logo {
   background-color: #eaf7ff;
   border: 2px dashed #3aa7ff;
   text-align: center;
-  padding: 30px 10px;
+  width: 15%;
+  padding: 25px 10px;
   border-radius: 10px;
   cursor: pointer;
   transition: all 0.4s ease;
   position: relative;
 }
 
-/* border: 2px solid #040b14;
-color: #149ddd;
-transition: all 0.5s ease-in-out; */
 .html-logo:hover {
   transform: translateZ(15px) scale(1.05);
   box-shadow: 0 20px 40px rgba(24, 130, 218, 0.4);
@@ -464,7 +460,7 @@ img {
 }
 
 .soft-skill-logo {
-  width: 18%;
+  width: 16%;
   background-color: #eaf7ff;
   border: 2px dashed #149ddd;
   text-align: center;
@@ -802,21 +798,22 @@ img {
   .section {
     padding: 0 5px;
   }
+
   .skill img {
     width: 60%;
   }
 
   .skill .soft-skill-logo {
-    width: 40%;
+    width: 45%;
   }
   .technical-skill {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
     justify-content: center;
+    gap: 15px;
   }
   .technical-skill .html-logo {
-    width: 150px;
+    width: 145px;
     margin-top: 10px;
   }
   .project .project_section {
